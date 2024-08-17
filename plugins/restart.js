@@ -13,7 +13,9 @@ if (!isOwner) return reply("*This Owner Command*");
 const {exec} = require("child_process")
 reply("CYBER-MD restarting..👨‍💻✅")
 await sleep(1500)
-exec("pm2 restart all")}catch(e){
+exec("pm2 restart all")
+}catch(e){
 console.log(e)
 reply(`${e}`)
-}})
+}
+})
