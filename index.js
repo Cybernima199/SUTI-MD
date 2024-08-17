@@ -67,7 +67,7 @@ require("./plugins/" + plugin);
 }
 });
 console.log('Plugins installed successful ✅')
-console.log('Bot connected ✅')
+console.log('ᴄʏʙᴇʀ-ᴍᴅ Bot connected ✅')
   
 let up = `CYBER-MD BOT connected successful ✅\n\nPREFIX: ${prefix}`;
 
@@ -167,7 +167,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey, Bot running..✅💫");
+res.send("ᴄʏʙᴇʀ-ᴍᴅ Bot running..✅💫");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
